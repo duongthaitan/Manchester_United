@@ -1,0 +1,132 @@
+/* PC */
+@media(max-width: 1024px){
+    
+}
+/* Tablet & Mobile */
+@media(max-width:1023px){
+    .btn {
+        padding: 20px 63px;
+    }
+    .place-body{
+        padding: 33px;
+    }
+    #nav .subnav a {
+        padding: 5px 25px;
+    }
+    .contact-from .from-control {
+        padding: 15px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .contact-info a{
+        color: #c70101;
+        opacity: 1;
+    }
+    .contact-info a:hover {
+        opacity: 1;
+        color: green;
+    }
+    .socials-list {
+        font-size: 48px;
+    }
+    .role{
+        font-size: 1.9em;
+        position: relative;
+        top: auto;
+        padding: 0px 0px 60px 80px;
+    }
+    .role-name{
+        margin: 0px 0px 60px 80px;
+    }
+    .visual-message {
+        font-size: 1.5em;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0 0 50px 80px;
+    }
+    .visual-statics{
+        display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0 -25px;
+    }
+    .visual-image img {
+        width: inherit;
+        align-self: flex-end;
+        margin: 0 0 0 -50px;
+    }
+    #content .content-section{
+    padding: 64px 0 112px;
+    width: 97%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    #footer .socials-list a {
+        margin: 0 10px;
+    }
+    #footer .coppyright a {
+        padding: 15px 0;
+        display: inline-block;
+    }
+    
+
+}
+
+/* Tablet */
+@media(min-width:740px) and (max-width:1023px){
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+/* Mobile */
+@media(max-width: 740px){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block; 
+    }
+    #nav > li:first-child { 
+        color: #fff;
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: inherit;
+        background: #c70101;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav a{
+    }
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-from {
+        margin-top: 32px;
+    }
+}
